@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Netflix</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img id="logo-img" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="logo-netflix">
+
+        </div>
+        <div class="search">
+            <div class="search-bar">
+                <input type="text" onkeyup="Moviesearch()" placeholder="search a movie" id="search-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="search-icon" class="search-icon"
+                    onclick="Moviesearch()">
+
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <div class="movies" id="movies">
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>Jawan</h1>
+                    <h2>IMDB:9.5</h2>
+                </div>
+            </div>
+            <img src="https://i.pinimg.com/originals/2c/2e/e1/2c2ee132ef8d4b1a785cf8569b488327.jpg" alt=" poster"
+                class="poster">
+
+        </div>
+
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>KGF chapter-2</h1>
+                    <h2>IMDB:9.7</h2>
+                </div>
+            </div>
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201912/KGF_0.jpeg" alt=" poster"
+                class="poster">
+
+        </div>
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>Tiger Zinda Hai</h1>
+                    <h2>IMDB:9.3</h2>
+                </div>
+            </div>
+            <img src="https://www.pinkvilla.com/images/2023-03/tiger-zinda-hai_2777-l_1280x720.jpg" alt=" poster"
+                class="poster">
+
+        </div>
+
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>Pathaan</h1>
+                    <h2>IMDB:9.2</h2>
+                </div>
+            </div>
+            <img src="https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2023/07/image-877.png" alt=" poster"
+                class="poster">
+
+        </div>
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>RRR</h1>
+                    <h2>IMDB:9.6</h2>
+                </div>
+            </div>
+            <img src="https://occ-0-1217-1007.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABY-hEFPD6A75T0bGz5LHoA-dgm7Jj9gOQ54sO06CwUf_XrGaszGv2uLeU02LHqGWL1kFwQTkdU_ZNG6jo1d9wGNZ0xn32juuwZM.jpg?r:de4"
+                , alt=" poster" class="poster">
+
+        </div>
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>Bahubali</h1>
+                    <h2>IMDB:9.4</h2>
+                </div>
+            </div>
+            <img src="https://e1.pxfuel.com/desktop-wallpaper/365/190/desktop-wallpaper-baahubali-movie-posters-at-shade-baahubali.jpg"
+                alt=" poster" class="poster">
+
+        </div>
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>Kantara</h1>
+                    <h2>IMDB:8.9</h2>
+                </div>
+            </div>
+            <img src="https://occ-0-999-38.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRFhZ5DEMlsNrloisG4lNMuiS6-u8eMaOtDLmb7V6_uf94qAF71k46iaX44TBn_SHMiY-kXxMEhBwrHdh2m1TE6qhxHSt5m7CFw.jpg?r:fbd"
+                alt=" poster" class="poster">
+
+        </div>
+
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>Vikram</h1>
+                    <h2>IMDB:8.5</h2>
+                </div>
+            </div>
+            <img src="https://feeds.abplive.com/onecms/images/uploaded-images/2021/07/10/273e787ba809e725948334340c658e68_original.jpg"
+                alt=" poster" class="poster">
+
+        </div>
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>Avengers Infinity War</h1>
+                    <h2>IMDB:9.8</h2>
+                </div>
+            </div>
+            <img src="https://images-cdn.ubuy.co.in/63b7b107d4159432fb5ec817-avengers-infinity-war-movie-poster.jpg"
+                alt=" poster" class="poster">
+
+        </div>
+
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>OppenHeimer</h1>
+                    <h2>IMDB:9.2</h2>
+                </div>
+            </div>
+            <img src="https://cdna.artstation.com/p/assets/images/images/063/096/684/large/william-j-harris-oppenheimer-movie-poster-2023.jpg?1684720979"
+                alt=" poster" class="poster">
+
+        </div>
+
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>Sultan</h1>
+                    <h2>IMDB:9.0</h2>
+                </div>
+            </div>
+            <img src="https://www.koimoi.com/wp-content/new-galleries/2016/06/sultan-movie-new-poster-news.jpg"
+                alt=" poster" class="poster">
+
+        </div>
+        <div class="movie">
+            <div class="overlay">
+                <div class="video"></div>
+                <div class="details">
+                    <h1>Bhool Bhulaiya 2</h1>
+                    <h2>IMDB:7.5</h2>
+                </div>
+            </div>
+            <img src="https://www.scrolldroll.com/wp-content/uploads/2022/06/bhool-bhulaiya-2-best-hindi-movies-released-on-netflix-in-2022.jpg"
+                alt=" poster" class="poster">
+
+
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="footer-logo">
+            <img id="logo-img" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="logo-netflix">
+
+        </div>
+        <!-- <div>
+            <img src="https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg" alt="">
+        </div>
+        <div></div> -->
+    </footer>
+
+    <!-- <script src="./script.js"></script> -->
+</body>
+
+</html>
